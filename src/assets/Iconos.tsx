@@ -1,14 +1,14 @@
 import React from 'react';
-import { Leaf, QrCode, Smartphone, Sparkles, Gift, Scan, ArrowRight, PlayCircle } from './assets/Iconos';
+
 export const Leaf = ({ className = "w-6 h-6", style = {} }: any) => (
-  <svg className={className} style={style} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 20A7 7 0 014 13V6a1 1 0 011-1h7a7 7 0 017 7v7a1 1 0 01-1 1h-7z" />
+  <svg className={className} style={style} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v18m0-18l-4 4m4-4l4 4" />
   </svg>
 );
 
 export const QrCode = ({ className = "w-6 h-6" }: any) => (
   <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v1m0 4v1m0 4v1m0 4v1M4 12h1m4 0h1m4 0h1m4 0h1M6 6h2v2H6V6zm0 10h2v2H6v-2zm10-10h2v2h-2V6zm0 10h2v2h-2v-2z" />
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v1m0 4v1m0 4v1m4-10h1m4 0h1m-6 4h2v2h-2zM6 2v2H6V2z" />
   </svg>
 );
 
@@ -20,13 +20,13 @@ export const Smartphone = ({ className = "w-6 h-6" }: any) => (
 
 export const Sparkles = ({ className = "w-6 h-6" }: any) => (
   <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4m5 4v4m-2-2h4m5 4v4m-2-2h4" />
   </svg>
 );
 
 export const Gift = ({ className = "w-6 h-6" }: any) => (
   <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 12v10H4V12M22 7H2v5h20V7zM12 22V7M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7zm0 0h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z" />
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v13m0-13V3m0 5h7a2 2 0 012 2v3a2 2 0 01-2 2h-7m0-7H5a2 2 0 00-2 2v3a2 2 0 002 2h7" />
   </svg>
 );
 
