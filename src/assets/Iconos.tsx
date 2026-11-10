@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Leaf, QrCode, Smartphone, Sparkles, Gift, Scan, ArrowRight, PlayCircle } from './assets/Iconos';
 export const Leaf = ({ className = "w-6 h-6", style = {} }: any) => (
   <svg className={className} style={style} fill="none" stroke="currentColor" viewBox="0 0 24 24">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 20A7 7 0 014 13V6a1 1 0 011-1h7a7 7 0 017 7v7a1 1 0 01-1 1h-7z" />
